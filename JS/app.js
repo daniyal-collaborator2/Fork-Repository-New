@@ -60,3 +60,12 @@ const purchaseFeature = pro => {
         return false
     }
 }
+
+const biosFeature = user => {
+    if(user.eye == 'Ok'){
+        return true
+    }
+    else{
+        return false
+    }
+}
