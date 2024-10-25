@@ -6,3 +6,12 @@ const isLogin = user => {
         return false
     }
 }
+
+const registerFeatuer = user => {
+    if(user){
+        return true
+    }
+    else{
+        return false
+    }
+}
