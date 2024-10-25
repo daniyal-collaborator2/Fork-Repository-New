@@ -24,3 +24,21 @@ const getMeAPI = api => {
         return false
     }
 }
+
+const likeFeature = like => {
+    if(like){
+        return true
+    }
+    else{
+        return false
+    }
+}
+
+const disLikeFeature = dislike => {
+    if(dislike){
+        return true
+    }
+    else{
+        return false
+    }
+}
