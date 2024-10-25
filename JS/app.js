@@ -42,3 +42,12 @@ const disLikeFeature = dislike => {
         return false
     }
 }
+
+const checkoutFeature = pro => {
+    if(pro){
+        return true
+    }
+    else{
+        return false
+    }
+}
