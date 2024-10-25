@@ -20,3 +20,8 @@ input{
 h1{
     font-size: 2rem;
 }
+
+.social{
+    border: 2px solid #efefef;
+    background-color: #33ee3e;
+}
