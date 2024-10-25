@@ -43,6 +43,15 @@ const disLikeFeature = dislike => {
     }
 }
 
+const checkoutFeature = pro => {
+    if(pro){
+        return true
+    }
+    else{
+        return false
+    }
+}
+
 const purchaseFeature = pro => {
     if(pro.detail == 'fruit'){
         return true
