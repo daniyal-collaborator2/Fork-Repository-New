@@ -15,3 +15,12 @@ const registerFeatuer = user => {
         return false
     }
 }
+
+const getMeAPI = api => {
+    if(api == 'Log'){
+        return true
+    }
+    else{
+        return false
+    }
+}
